@@ -7,10 +7,7 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
-      fontFamily: {
-        'sans': ['Quicksand', 'sans-serif'],
-      }
-    },
+    }
   },
   variants: {
     extend: {
