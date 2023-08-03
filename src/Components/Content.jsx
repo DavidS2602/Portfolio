@@ -4,31 +4,31 @@ import { BiRightArrowAlt } from "react-icons/bi";
 const Content = () => {
     const projectsData = [
         {
-            imageSrc: "../../assets/Work/Translator.png",
+            imageSrc: "/public/Translator.png",
             description: "Translator",
             GithubLink: "https://github.com/DavidS2602/Translator.git",
             LiveLink: "https://startling-sunflower-1fd25f.netlify.app/"
         },
         {
-            imageSrc: "../../assets/Work/Tesla-landing.png",
+            imageSrc: "/public/Tesla-landing.png",
             description: "Tesla Landing Page",
             GithubLink: "https://github.com/DavidS2602/clon-tesla-landing.git",
             LiveLink: "https://jocular-zabaione-29d155.netlify.app/"
         },
         {
-            imageSrc: "../../assets/Work/La-velada-del-año.png",
+            imageSrc: "/public/La-velada-del-año.png",
             description: "La velada del año",
             GithubLink: "https://github.com/DavidS2602/clon-la-velada.git",
             LiveLink: "https://visionary-moonbeam-c97fbd.netlify.app/"
         },
         {
-            imageSrc: "../../assets/Work/Tic-tac-toe.png",
+            imageSrc: "/public/Tic-tac-toe.png",
             description: "Tic-tac-toe",
             GithubLink: "https://github.com/DavidS2602/Play-with-React.git",
             LiveLink: "https://aquamarine-torrone-bff9bc.netlify.app/"
         },
         {
-            imageSrc: "../../assets/Work/Todos.png",
+            imageSrc: "/public/Todos.png",
             description: "Todos",
             GithubLink: "https://github.com/DavidS2602/Todo-App.git",
             LiveLink: "https://shimmering-pastelito-2d1903.netlify.app/"
@@ -63,35 +63,35 @@ const Content = () => {
                                 <span className="text-gray-800 dark:text-gray-200">
                                     <img
                                         className="w-10 h-10"
-                                        src="../../assets/html.png"
+                                        src="/public/html.png"
                                         alt="Html"
                                     />
                                 </span>
                                 <span className="text-gray-800 dark:text-gray-200">
                                     <img
                                         className="w-10 h-10"
-                                        src="../../assets/css-3.png"
+                                        src="/public/css-3.png"
                                         alt="Css"
                                     />
                                 </span>
                                 <span className="text-gray-800 dark:text-gray-200 flex flex-col justify-center items-center">
                                     <img
                                         className="w-10 h-10"
-                                        src="../../assets/logo-javascript.svg"
+                                        src="/public/logo-javascript.svg"
                                         alt="Javascript"
                                     />
                                 </span>
                                 <span className="text-gray-800 dark:text-gray-200">
                                     <img
                                         className="w-10 h-10"
-                                        src="../../assets/react.svg"
+                                        src="/public/react.svg"
                                         alt="React"
                                     />
                                 </span>
                                 <span className="text-gray-800 dark:text-gray-200">
                                     <img
                                         className="w-10 h-10"
-                                        src="../../assets/tailwindcss.svg"
+                                        src="/public/tailwindcss.svg"
                                         alt="Tailwind"
                                     />
                                 </span>
