@@ -4,31 +4,31 @@ import { BiRightArrowAlt } from "react-icons/bi";
 const Content = () => {
     const projectsData = [
         {
-            imageSrc: "../assets/Work/Translator.png",
+            imageSrc: require("../assets/Work/Translator.png").default,
             description: "Translator",
             GithubLink: "https://github.com/DavidS2602/Translator.git",
             LiveLink: "https://startling-sunflower-1fd25f.netlify.app/"
         },
         {
-            imageSrc: "../assets/Work/Tesla-landing.png",
+            imageSrc: require("../assets/Work/Tesla-landing.png").default,
             description: "Tesla Landing Page",
             GithubLink: "https://github.com/DavidS2602/clon-tesla-landing.git",
             LiveLink: "https://jocular-zabaione-29d155.netlify.app/"
         },
         {
-            imageSrc: "../assets/Work/La-velada-del-año.png",
+            imageSrc: require("../assets/Work/La-velada-del-año.png").default,
             description: "La velada del año",
             GithubLink: "https://github.com/DavidS2602/clon-la-velada.git",
             LiveLink: "https://visionary-moonbeam-c97fbd.netlify.app/"
         },
         {
-            imageSrc: "../assets/Work/Tic-tac-toe.png",
+            imageSrc: require("../assets/Work/Tic-tac-toe.png").default,
             description: "Tic-tac-toe",
             GithubLink: "https://github.com/DavidS2602/Play-with-React.git",
             LiveLink: "https://aquamarine-torrone-bff9bc.netlify.app/"
         },
         {
-            imageSrc: "../assets/Work/Todos.png",
+            imageSrc: require("../assets/Work/Todos.png").default,
             description: "Todos",
             GithubLink: "https://github.com/DavidS2602/Todo-App.git",
             LiveLink: "https://shimmering-pastelito-2d1903.netlify.app/"
