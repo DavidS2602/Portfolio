@@ -4,31 +4,31 @@ import { BiRightArrowAlt } from "react-icons/bi";
 const Content = () => {
     const projectsData = [
         {
-            imageSrc: "/public/Translator.png",
+            imageSrc: "/Translator.png",
             description: "Translator",
             GithubLink: "https://github.com/DavidS2602/Translator.git",
             LiveLink: "https://startling-sunflower-1fd25f.netlify.app/"
         },
         {
-            imageSrc: "/public/Tesla-landing.png",
+            imageSrc: "/Tesla-landing.png",
             description: "Tesla Landing Page",
             GithubLink: "https://github.com/DavidS2602/clon-tesla-landing.git",
             LiveLink: "https://jocular-zabaione-29d155.netlify.app/"
         },
         {
-            imageSrc: "/public/La-velada-del-año.png",
+            imageSrc: "/La-velada-del-año.png",
             description: "La velada del año",
             GithubLink: "https://github.com/DavidS2602/clon-la-velada.git",
             LiveLink: "https://visionary-moonbeam-c97fbd.netlify.app/"
         },
         {
-            imageSrc: "/public/Tic-tac-toe.png",
+            imageSrc: "/Tic-tac-toe.png",
             description: "Tic-tac-toe",
             GithubLink: "https://github.com/DavidS2602/Play-with-React.git",
             LiveLink: "https://aquamarine-torrone-bff9bc.netlify.app/"
         },
         {
-            imageSrc: "/public/Todos.png",
+            imageSrc: "/Todos.png",
             description: "Todos",
             GithubLink: "https://github.com/DavidS2602/Todo-App.git",
             LiveLink: "https://shimmering-pastelito-2d1903.netlify.app/"
@@ -63,35 +63,35 @@ const Content = () => {
                                 <span className="text-gray-800 dark:text-gray-200">
                                     <img
                                         className="w-10 h-10"
-                                        src="/public/html.png"
+                                        src="/html.png"
                                         alt="Html"
                                     />
                                 </span>
                                 <span className="text-gray-800 dark:text-gray-200">
                                     <img
                                         className="w-10 h-10"
-                                        src="/public/css-3.png"
+                                        src="/css-3.png"
                                         alt="Css"
                                     />
                                 </span>
                                 <span className="text-gray-800 dark:text-gray-200 flex flex-col justify-center items-center">
                                     <img
                                         className="w-10 h-10"
-                                        src="/public/logo-javascript.svg"
+                                        src="/logo-javascript.svg"
                                         alt="Javascript"
                                     />
                                 </span>
                                 <span className="text-gray-800 dark:text-gray-200">
                                     <img
                                         className="w-10 h-10"
-                                        src="/public/react.svg"
+                                        src="/react.svg"
                                         alt="React"
                                     />
                                 </span>
                                 <span className="text-gray-800 dark:text-gray-200">
                                     <img
                                         className="w-10 h-10"
-                                        src="/public/tailwindcss.svg"
+                                        src="/tailwindcss.svg"
                                         alt="Tailwind"
                                     />
                                 </span>
