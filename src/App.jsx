@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import Navbar from './Components/Navbar'
-import Content from './Components/content'
+import Content from './Components/Content'
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
