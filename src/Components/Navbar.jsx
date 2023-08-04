@@ -6,7 +6,7 @@ import Sidebar from "./Sidebar";
 
 
 const Navbar = ({ darkMode, onClick }) => {
-    const [SidebarOpen, setSidebarOpen] = useState('false')
+    const [SidebarOpen, setSidebarOpen] = useState(false)
 
     const handleNavigation = (sectionId) => {
         const section = document.getElementById(sectionId);
