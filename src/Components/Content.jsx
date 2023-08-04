@@ -13,7 +13,7 @@ const Content = () => {
             imageSrc: "/Tesla-landing.png",
             description: "Tesla Landing Page",
             GithubLink: "https://github.com/DavidS2602/clon-tesla-landing.git",
-            LiveLink: "https://jocular-zabaione-29d155.netlify.app/"
+            LiveLink: "https://cerulean-cobbler-5e357b.netlify.app/"
         },
         {
             imageSrc: "/La-velada-del-año.png",
