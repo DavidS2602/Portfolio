@@ -112,7 +112,7 @@ const Content = () => {
                                     <img className="w-auto rounded-lg" src={project.imageSrc} alt="" />
                                 </div>
                                 <div className="info-section ml-2 my-2 mr-2">
-                                    <p className="mb-2">{project.description}</p>
+                                    <p className="mb-2 dark:text-gray-200">{project.description}</p>
                                     <div className="grid grid-cols-2 gap-4 dark:text-gray-200">
                                         <div className="border-2 px-2 py-1 rounded-lg flex cursor-pointer hover:scale-105 transition-all hover:bg-blue-300 dark:hover:bg-cyan-800 dark:border-gray-400">
                                             <a className="flex items-center justify-between w-full" href={project.GithubLink}>Code <span><BsGithub /></span></a>
