@@ -15,13 +15,13 @@ const ContactSection = () => {
                 <p className="Email font-semibold text-md text-gray-500 dark:text-gray-50">DavidS260202@proton.me</p>
             </div>
             <div className="icons flex items-center gap-4 font-semibold">
-                <a className="flex items-center gap-2 bg-sky-500 p-2 rounded-lg shadow-2xl hover:bg-sky-600 hover:scale-110 duration-300 dark:bg-cyan-700 hover:dark:bg-cyan-600" href=""><BsGithub size={24}/>Github</a>
-                <div className="flex items-center gap-2 cursor-pointer bg-sky-500 p-2 rounded-lg shadow-2xl hover:bg-sky-600 hover:scale-110 duration-300 dark:bg-cyan-700 hover:dark:bg-cyan-600">
-                    <a className="text-blue-600 dark:text-blue-500" href="https://github.com/"><BsTwitter size={24}/></a>
+                <a className="flex items-center gap-2 bg-sky-500 p-2 rounded-lg shadow-2xl hover:bg-sky-600 hover:scale-110 duration-300 dark:bg-cyan-600 hover:dark:bg-cyan-600" href=""><BsGithub size={24}/>Github</a>
+                <div className="flex items-center gap-2 cursor-pointer bg-sky-500 p-2 rounded-lg shadow-2xl hover:bg-sky-600 hover:scale-110 duration-300 dark:bg-cyan-600 hover:dark:bg-cyan-600">
+                    <a className="text-blue-600 dark:text-blue-700" href="https://github.com/"><BsTwitter size={24}/></a>
                     <p>Twitter</p>
                 </div>
-                <div className="flex items-center gap-2 cursor-pointer bg-sky-500 p-2 rounded-lg shadow-2xl hover:bg-sky-600 hover:scale-110 duration-300 dark:bg-cyan-700 hover:dark:bg-cyan-600">
-                    <a className="text-blue-600 dark:text-blue-500" href=""><BsLinkedin size={25}/></a>
+                <div className="flex items-center gap-2 cursor-pointer bg-sky-500 p-2 rounded-lg shadow-2xl hover:bg-sky-600 hover:scale-110 duration-300 dark:bg-cyan-600 hover:dark:bg-cyan-600">
+                    <a className="text-blue-600 dark:text-blue-700" href=""><BsLinkedin size={25}/></a>
                     <p>LinkedIn</p>
                 </div>
             </div>
