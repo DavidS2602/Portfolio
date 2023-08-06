@@ -18,6 +18,9 @@ const Sidebar = ({ handleNavigation, setSidebar }) => {
                 <div onClick={() => handleNavigation('Projects')} className="cursor-pointer hover:text-blue-800 dark:hover:text-cyan-500 hover:scale-105 duration-300">
                     <p>Projects</p>
                 </div>
+                <div onClick={() => handleNavigation('Contact')} className="cursor-pointer hover:text-blue-800 dark:hover:text-cyan-500 hover:scale-105 duration-300">
+                    <p>Contact</p>
+                </div>
             </div>
         </nav>
     );
