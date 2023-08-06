@@ -30,12 +30,12 @@ const Navbar = ({ darkMode, onClick }) => {
                         <p>Home</p>
                     </div>
                     <div onClick={() => handleNavigation('About')} className="hover:text-blue-800 transition-transform duration-300 hidden sm:block dark:hover:text-cyan-500 hover:scale-110 cursor-pointer">
-                        <p>About</p>
+                        <p>Sobre mi</p>
                     </div>
                     <div onClick={() => handleNavigation('Projects')} className="hover:text-blue-800 transition-transform duration-300 hidden sm:block dark:hover:text-cyan-500 hover:scale-110 cursor-pointer">
-                        <p>Projects</p>
+                        <p>Proyectos</p>
                     </div>
-                    <div className="hover:text-blue-800 transition-transform duration-300 hidden sm:block dark:hover:text-cyan-500 hover:scale-110 cursor-pointer">
+                    <div onClick={() => handleNavigation('Contact')} className="hover:text-blue-800 transition-transform duration-300 hidden sm:block dark:hover:text-cyan-500 hover:scale-110 cursor-pointer">
                         <p>Contact</p>
                     </div>
                     <div className="sm:hidden flex items-center">
