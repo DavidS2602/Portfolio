@@ -4,31 +4,31 @@ import { BiRightArrowAlt } from "react-icons/bi";
 const Content = () => {
     const projectsData = [
         {
-            imageSrc: "/Translator.png",
+            imageSrc: "/Translator.jpg",
             description: "Translator",
             GithubLink: "https://github.com/DavidS2602/Translator.git",
             LiveLink: "https://startling-sunflower-1fd25f.netlify.app/"
         },
         {
-            imageSrc: "/Tesla-landing.png",
+            imageSrc: "/Tesla-landing.jpg",
             description: "Tesla Landing Page",
             GithubLink: "https://github.com/DavidS2602/clon-tesla-landing.git",
             LiveLink: "https://cerulean-cobbler-5e357b.netlify.app/"
         },
         {
-            imageSrc: "/La-velada-del-año.png",
+            imageSrc: "/La-velada-del-año.jpg",
             description: "La velada del año",
             GithubLink: "https://github.com/DavidS2602/clon-la-velada.git",
             LiveLink: "https://visionary-moonbeam-c97fbd.netlify.app/"
         },
         {
-            imageSrc: "/Tic-tac-toe.png",
+            imageSrc: "/Tic-tac-toe.jpg",
             description: "Tic-tac-toe",
             GithubLink: "https://github.com/DavidS2602/Play-with-React.git",
             LiveLink: "https://aquamarine-torrone-bff9bc.netlify.app/"
         },
         {
-            imageSrc: "/Todos.png",
+            imageSrc: "/Todos.jpg",
             description: "Todos",
             GithubLink: "https://github.com/DavidS2602/Todo-App.git",
             LiveLink: "https://shimmering-pastelito-2d1903.netlify.app/"
