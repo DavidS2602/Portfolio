@@ -22,7 +22,6 @@ const Navbar = ({ darkMode, onClick }) => {
 
     return (
         <div>
-
             <nav className="flex w-full font-sans bg-sky-300 dark:bg-sky-700 fixed items-center justify-between px-4 py-4 border-b-2 dark:border-gray-400 transition-colors duration-600 dark:text-gray-300">
                 <p className="font-bold text-3xl">CodeDS</p>
                 <div className="flex gap-4 items-center font-semibold">
@@ -36,7 +35,7 @@ const Navbar = ({ darkMode, onClick }) => {
                         <p>Proyectos</p>
                     </div>
                     <div onClick={() => handleNavigation('Contact')} className="hover:text-blue-800 transition-transform duration-300 hidden sm:block dark:hover:text-cyan-500 hover:scale-110 cursor-pointer">
-                        <p>Contact</p>
+                        <p>Contacto</p>
                     </div>
                     <div className="sm:hidden flex items-center">
                         <button onClick={handleSidebar}><AiOutlineMenu size={23} /></button>
