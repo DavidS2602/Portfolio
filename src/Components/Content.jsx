@@ -1,6 +1,6 @@
 import { BsGithub } from "react-icons/bs";
 import { BiRightArrowAlt } from "react-icons/bi";
-import { motion } from "framer-motion";
+import { delay, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import ContactSection from "./ContactSection";
 
@@ -128,6 +128,10 @@ const Content = () => {
             icon: <img className="w-10 h-10" src="/github-mark.svg" alt="Sass" />,
             delay: 2.5,
         },
+        {
+            icon: <img className="w-10 h-10" src="/git.png" alt="git" />,
+            delay: 3.0
+        },
     ];
     return (
         <div>
@@ -144,7 +148,7 @@ const Content = () => {
                 <div className="border w-full dark:border-gray-400" />
                 <section
                     id="About"
-                    className="About-section pl-5 pt-20 sm:pl-32 sm:pr-32 md:pl-56 md:pr-56"
+                    className="About-section pl-5 pt-20 sm:pl-32 sm:pr-32 md:pl-44 md:pr-44"
                 >
                     <h1 className="text-5xl sm:text-7xl font-bold text-gray-600 dark:text-cyan-200">
                         Sobre mi
@@ -193,7 +197,7 @@ const Content = () => {
                 <div className="border w-full dark:border-gray-400" />
                 <section
                     id="Projects"
-                    className="Project-Section p-5 pt-20 pb-10 sm:pl-32 sm:pr-32 md:pl-56 md:pr-56"
+                    className="Project-Section p-5 pt-20 pb-10 sm:pl-32 sm:pr-32 md:pl-44 md:pr-44"
                 >
                     <p className="flex mt-2 text-5xl sm:text-7xl font-bold text-gray-600 dark:text-cyan-200">
                         Projects
