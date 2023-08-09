@@ -130,7 +130,7 @@ const Content = () => {
         },
         {
             icon: <img className="w-10 h-10" src="/git.png" alt="git" />,
-            delay: 3.0
+            delay: 3.0,
         },
     ];
     return (
@@ -170,12 +170,12 @@ const Content = () => {
                     <div className="mb-20">
                         <div className="mt-5">
                             <h1 className="text-[40px] sm:text-6xl font-bold text-gray-600 dark:text-cyan-200">
-                                Skills
+                                Tecnologías
                                 <span className="text-gray-400">.</span>
                             </h1>
                             <motion.div
                                 id="tech-stack-section"
-                                className="Icons mt-6 flex gap-6 items-center"
+                                className="Icons mt-6 grid grid-cols-3 gap-4 sm:flex sm:gap-6 sm:items-center"
                                 initial={{ opacity: 0 }}
                                 animate={isAnimated ? { opacity: 1 } : {}}
                                 transition={{ duration: 1 }}
@@ -200,7 +200,7 @@ const Content = () => {
                     className="Project-Section p-5 pt-20 pb-10 sm:pl-32 sm:pr-32 md:pl-44 md:pr-44"
                 >
                     <p className="flex mt-2 text-5xl sm:text-7xl font-bold text-gray-600 dark:text-cyan-200">
-                        Projects
+                        Proyectos
                         <span className="text-gray-400">.</span>
                     </p>
                     <motion.div
@@ -236,7 +236,7 @@ const Content = () => {
                                                 className="flex items-center justify-between w-full"
                                                 href={project.GithubLink}
                                             >
-                                                Code{" "}
+                                                Código{" "}
                                                 <span>
                                                     <BsGithub />
                                                 </span>
@@ -247,7 +247,7 @@ const Content = () => {
                                                 className="flex items-center gap-2"
                                                 href={project.LiveLink}
                                             >
-                                                Go to page{" "}
+                                                Visitar Web{" "}
                                                 <span>
                                                     <BiRightArrowAlt />
                                                 </span>

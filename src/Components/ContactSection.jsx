@@ -3,7 +3,7 @@ import { BsGithub, BsTwitter } from "react-icons/bs";
 
 const ContactSection = () => {
     return (
-        <div className="pb-4">
+        <div className="pb-6 pt-2">
             <div className="flex flex-col w-full h-full items-center justify-center">
                 <div className="flex items-center justify-center w-full h-full">
                     <h1 className="font-semibold text-xl text-gray-700 mt-2 mb-3 dark:text-gray-200">
@@ -11,9 +11,6 @@ const ContactSection = () => {
                     </h1>
                 </div>
                 <div className="flex w-full h-full mb-4 items-center justify-center flex-col">
-                    <p className="font-semibold text-lg text-gray-700 dark:text-gray-200">
-                        Hola!!👋
-                    </p>
                     <p className="max-w-4xl px-5 text-[16px] text-gray-700 dark:text-gray-300">
                         Tienes alguna pregunta, no dudes en ponerte en contacto conmigo.
                     </p>
