@@ -162,7 +162,7 @@ const Content = () => {
                         className="text-gray-800 max-w-4xl dark:text-gray-200 text-xl sm:text-2xl mt-5"
                     >
                         Soy un Desarrollador Frontend de México, apasionado por todas las
-                        tecnologías del ámbito. Estudio Ingeniería en Computación en el IPN
+                        tecnologías del ámbito. Estudio Ingeniería en Informática en el IPN
                         y disfruto creando experiencias web increíbles con HTML, CSS,
                         JavaScript y React. Siempre listo para nuevos desafíos y aprendizaje
                         continuo en el emocionante mundo del desarrollo web.
