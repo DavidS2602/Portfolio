@@ -80,7 +80,7 @@ const Content = () => {
             imageSrc: "/Todos.jpg",
             description: "Todos",
             GithubLink: "https://github.com/DavidS2602/Todo-App.git",
-            LiveLink: "https://shimmering-pastelito-2d1903.netlify.app/",
+            LiveLink: "https://warm-narwhal-5c0122.netlify.app",
             delay: 2.0,
         },
         {
