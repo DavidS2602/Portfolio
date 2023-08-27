@@ -143,7 +143,7 @@ const Content = () => {
                     id="Home"
                     className="Home info-container mt-40 pl-5 mb-56 sm:pl-32 sm:pr-32 sm:mb-56 md:pl-44 md:pr-44"
                 >
-                    <h1 className="text-white text-xl sm:text-2xl">Hi! I'm David 👋</h1>
+                    <h1 className="text-white text-xl sm:text-2xl">Hola! Soy David 👋</h1>
                     <p className="flex mt-2 bg-gradient-to-r  from-cyan-200 to-cyan-400 text-transparent text-5xl sm:text-7xl font-bold bg-clip-text dark:bg-gradient-to-r dark:from-gray-200 dark:via-gray-400 dark:to-gray-600">
                         Frontend Developer
                     </p>
