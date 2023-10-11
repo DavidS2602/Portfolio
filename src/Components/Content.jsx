@@ -90,9 +90,17 @@ const Content = () => {
             delay: 2.5,
         },
         {
+            imageSrc: "/Generador-QR.png",
+            description: "Generador de QR",
+            GithubLink: "https://github.com/DavidS2602/Generador-de-QR",
+            LiveLink: "https://f8b1c496.generador-de-qr.pages.dev/",
+            delay: 3.0,
+        },
+        {
             imageSrc:
                 "https://media.istockphoto.com/id/477902875/es/foto/el-pron%C3%B3stico-del-tiempo-en-un-display-digital.jpg?s=612x612&w=0&k=20&c=Tsz4ti7rTQvih6iMp2UdXMkz_nFSvtQZU_PJZk0I9os=",
             description: "Weather App (PROXIMAMENTE)",
+            delay: 3.5,
         },
     ];
 
