@@ -58,14 +58,14 @@ const Content = () => {
             imageSrc: "/Tesla-landing.jpg",
             description: "Tesla Landing Page",
             GithubLink: "https://github.com/DavidS2602/clon-tesla-landing.git",
-            LiveLink: "https://cerulean-cobbler-5e357b.netlify.app/",
+            LiveLink: "https://clon-tesla-landing.pages.dev/",
             delay: 0.5,
         },
         {
             imageSrc: "/La-velada-del-año.jpg",
             description: "La velada del año",
             GithubLink: "https://github.com/DavidS2602/clon-la-velada.git",
-            LiveLink: "https://visionary-moonbeam-c97fbd.netlify.app/",
+            LiveLink: "https://clon-la-velada.pages.dev/",
             delay: 1.0,
         },
         {
@@ -79,14 +79,14 @@ const Content = () => {
             imageSrc: "/Todos.jpg",
             description: "Todos",
             GithubLink: "https://github.com/DavidS2602/Todo-App.git",
-            LiveLink: "https://warm-narwhal-5c0122.netlify.app",
+            LiveLink: "https://todo-app-9yj.pages.dev/",
             delay: 2.0,
         },
         {
             imageSrc: "/e-commerce.jpg",
             description: "E-commerce",
             GithubLink: "https://github.com/DavidS2602/e-commerce-platzi.git",
-            LiveLink: "https://glistening-figolla-337444.netlify.app/",
+            LiveLink: "https://e-commerce-bfa.pages.dev/",
             delay: 2.5,
         },
         {
