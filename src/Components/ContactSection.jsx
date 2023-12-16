@@ -53,9 +53,9 @@ const ContactSection = () => {
                     </p>
                     <a
                         className="Email font-semibold text-md text-gray-500 dark:text-gray-50"
-                        href="mailto:codedsdev@protonmail.com"
+                        href="mailto:davids260202@proton.me"
                     >
-                        codedsdev@protonmail.com
+                        davids260202@proton.me
                     </a>
                 </motion.div>
                 <div className="icons flex items-center gap-4 font-semibold">
