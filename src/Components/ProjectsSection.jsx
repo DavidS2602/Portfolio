@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { BsGithub } from "react-icons/bs";
 import { BiRightArrowAlt } from "react-icons/bi";
+import { FaCode } from "react-icons/fa6";
 
 const ProjectsSection = ({ projectsData, isProjectsAnimated }) => {
     return (
@@ -9,6 +10,7 @@ const ProjectsSection = ({ projectsData, isProjectsAnimated }) => {
             className="Project-Section p-5 pt-20 pb-10 sm:pl-32 sm:pr-32 md:pl-44 md:pr-44"
         >
             <p className="flex mt-2 text-5xl sm:text-7xl font-bold text-gray-600 dark:text-cyan-200">
+                <span>{<FaCode />}</span>
                 Proyectos
                 <span className="text-gray-400">.</span>
             </p>
